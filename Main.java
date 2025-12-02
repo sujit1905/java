@@ -40,21 +40,30 @@ public class Main {
 //        String name="sujit mecwan";
 //        System.out.println(name.substring(0,5));
 
-        int[] marks = new int[5];
-
-        marks[0] = 59;
-        marks[1] = 77;
-        marks[2] = 89;
-        marks[3] = 51;
-        marks[4] = 52;
-
+        int[] marks = {59,77,89,51,52};
         //length
 //        System.out.println(marks.length);
 
         //sort
-        System.out.println(marks[0]);
-        Arrays.sort(marks);
-        System.out.println(marks[0]);
+//        System.out.println(marks[0]);
+//        Arrays.sort(marks);
+//        System.out.println(marks[0]);
+
+        //2d array
+//        int [][] finalMarks={{59,89,56},{50,88,78}};
+//
+//        System.out.println(finalMarks[1][1]);
+
+
+        //casting
+            //double has 8bytes
+            double price=100.00;
+            double finalPrice=price+18.0;
+            //int has 2 bytes
+//        int price=100;
+//        int finalPrice=price+18;
+
+        System.out.println(finalPrice);
 
     }
 }
