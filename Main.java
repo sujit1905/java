@@ -232,6 +232,13 @@ public class Main {
 //        System.out.println(arr[0]);
 //        System.out.println(arr[1]);
 
-
+//        printjava();
+//        printjava();
+//        printjava();
     }
+
+//    public static void printjava() {
+//        System.out.println("java");
+//    }
+
 }
