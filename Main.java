@@ -196,15 +196,29 @@ public class Main {
 
 
         //do while
-        int number;
+//        int number;
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        do{
+//            System.out.print("Enter a number:");
+//            number=sc.nextInt();
+//            System.out.println("your number is:"+number);
+//        }while(number>=0);
+//        System.out.println("The End");
 
-        Scanner sc = new Scanner(System.in);
-
-        do{
-            System.out.print("Enter a number:");
-            number=sc.nextInt();
-            System.out.println("your number is:"+number);
-        }while(number>=0);
-        System.out.println("The End");
+        //break and continue
+        int i=0;
+        while(true){
+            if(i==3){
+                i++;
+                continue;
+            }
+            System.out.println(i);
+            i=i+1;
+            if(i>=5){
+                break;
+            }
+        }
     }
 }
