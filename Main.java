@@ -193,5 +193,18 @@ public class Main {
 //        for (i=4; i>=0; i--){
 //            System.out.println(i);
 //        }
+
+
+        //do while
+        int number;
+
+        Scanner sc = new Scanner(System.in);
+
+        do{
+            System.out.print("Enter a number:");
+            number=sc.nextInt();
+            System.out.println("your number is:"+number);
+        }while(number>=0);
+        System.out.println("The End");
     }
 }
