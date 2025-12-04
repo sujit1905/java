@@ -1,3 +1,4 @@
+import java.lang.runtime.SwitchBootstraps;
 import java.sql.Array;
 import java.sql.SQLOutput;
 import java.util.Arrays;
@@ -57,10 +58,10 @@ public class Main {
 
 
         //casting
-            //double has 8bytes
+        //double has 8bytes
 //            double price=100.00;
 //            double finalPrice=price+18.0;
-            //int has 2 bytes
+        //int has 2 bytes
 /*        int price=100;
         int finalPrice=price+(int)18.0;
         System.out.println(finalPrice);*/
@@ -149,5 +150,38 @@ public class Main {
 //        else{
 //            System.out.println("you can buy anything");
 //        }
+
+
+        //witch statement
+
+        int day = 2 ;
+
+        switch (day) {
+            case 1:
+                System.out.println("monday");
+                break;
+            case 2:
+                System.out.println("tuesday");
+                break;
+            case 3:
+                System.out.println("wednesday");
+                break;
+            case 4:
+                System.out.println("thursday");
+                break;
+            case 5:
+                System.out.println("friday");
+                break;
+            case 6:
+                System.out.println("saturday");
+                break;
+            case 7:
+                System.out.println("sunday");
+                break;
+            default:
+                System.out.println("error");
+                break;
+        }
+
     }
 }
