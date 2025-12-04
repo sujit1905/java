@@ -2,6 +2,7 @@ import java.sql.Array;
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.SortedSet;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -40,7 +41,7 @@ public class Main {
 //        String name="sujit mecwan";
 //        System.out.println(name.substring(0,5));
 
-        int[] marks = {59,77,89,51,52};
+//        int[] marks = {59,77,89,51,52};
         //length
 //        System.out.println(marks.length);
 
@@ -93,6 +94,60 @@ public class Main {
 
 //        System.out.println(a);
 
+        //maths class
+//        System.out.println(Math.max(19,20));
 
+        //random
+//        System.out.println((int)(Math.random()*100));
+
+        //how to take Input?
+//        Scanner sc= new Scanner(System.in);
+//        System.out.print("Input age:");
+        //for integer value
+//        int age=sc.nextInt();
+//        System.out.println(age);
+
+
+        //string input
+
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("Input name:");
+//        String name=sc.nextLine();
+//        System.out.println(name);
+
+
+        //comparison operator
+//        int a=5;
+//        int b=10;
+//        System.out.println(a<b);
+
+        //condition
+//
+//        boolean isSunUp=true;
+//        if(isSunUp==true) System.out.println("day");
+//        else System.out.println("night");
+
+//        int age=21;
+//        if(age>18)
+//            System.out.println("You can vote!");
+//        else
+//            System.out.println("You can not vote!");
+
+        Scanner sc = new Scanner(System.in);
+
+        int pen=10;
+        int noteBook=50;
+
+        int cash=sc.nextInt();
+
+        if(cash<10){
+            System.out.println("do not have enough cash");
+        }
+        else if(cash>10 && cash < 50){
+            System.out.println("you can buy only pen");
+        }
+        else{
+            System.out.println("you can buy anything");
+        }
     }
 }
