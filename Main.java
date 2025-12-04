@@ -184,7 +184,7 @@ public class Main {
 //        }
 
         //loops
-    //0 to 4
+        //0 to 4
 //        int i;
 //        for (i=0; i<5; i++){
 //            System.out.println(i);
@@ -208,17 +208,30 @@ public class Main {
 //        System.out.println("The End");
 
         //break and continue
-        int i=0;
-        while(true){
-            if(i==3){
-                i++;
-                continue;
-            }
-            System.out.println(i);
-            i=i+1;
-            if(i>=5){
-                break;
-            }
-        }
+//        int i=0;
+//        while(true){
+//            if(i==3){
+//                i++;
+//                continue;
+//            }
+//            System.out.println(i);
+//            i=i+1;
+//            if(i>=5){
+//                break;
+//            }
+//        }
+
+        //try and catch in exceptions handling
+
+//        String[] arr = {"sujit", "mecwan"};
+//        try {
+//            System.out.println(arr[5]);
+//        } catch (Exception e) {
+//            //do somthing after catching
+//        }
+//        System.out.println(arr[0]);
+//        System.out.println(arr[1]);
+
+
     }
 }
