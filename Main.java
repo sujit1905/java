@@ -133,21 +133,21 @@ public class Main {
 //        else
 //            System.out.println("You can not vote!");
 
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
 
-        int pen=10;
-        int noteBook=50;
-
-        int cash=sc.nextInt();
-
-        if(cash<10){
-            System.out.println("do not have enough cash");
-        }
-        else if(cash>10 && cash < 50){
-            System.out.println("you can buy only pen");
-        }
-        else{
-            System.out.println("you can buy anything");
-        }
+//        int pen=10;
+//        int noteBook=50;
+//
+//        int cash=sc.nextInt();
+//
+//        if(cash<10){
+//            System.out.println("do not have enough cash");
+//        }
+//        else if(cash>10 && cash < 50){
+//            System.out.println("you can buy only pen");
+//        }
+//        else{
+//            System.out.println("you can buy anything");
+//        }
     }
 }
