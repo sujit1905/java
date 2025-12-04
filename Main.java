@@ -184,11 +184,14 @@ public class Main {
 //        }
 
         //loops
-
-        int i;
-        for (i=0; i<5; i++){
-            System.out.println(i);
-        }
-
+    //0 to 4
+//        int i;
+////        for (i=0; i<5; i++){
+////            System.out.println(i);
+////        }
+//    //4 to 0
+//        for (i=4; i>=0; i--){
+//            System.out.println(i);
+//        }
     }
 }
