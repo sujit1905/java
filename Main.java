@@ -235,10 +235,16 @@ public class Main {
 //        printjava();
 //        printjava();
 //        printjava();
+//        printsum(5, 5);
     }
 
 //    public static void printjava() {
 //        System.out.println("java");
 //    }
+
+//    public static void printsum(int a, int b) {
+//        System.out.println(a + b);
+//    }
+
 
 }
